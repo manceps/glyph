@@ -49,6 +49,12 @@ The radial-ring approach was chosen because:
 ### Docker (recommended)
 
 ```bash
+docker run -p 8090:8090 manceps/glyph:latest
+```
+
+Or build from source:
+
+```bash
 docker build -t glyph .
 docker run -p 8090:8090 glyph
 ```
